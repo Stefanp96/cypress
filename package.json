@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"node_modules//.bin//cypress run"
+    "test":"node_modules//.bin//cypress run",
+    "headTest" : "npm run test -- -- headed",
+    "testRecord" : "npm run test --record --key 375adc62-2ff1-429f-9b9e-501ec4c86b6d --reporter mochawesome",
+    "test2" : "npx cypress run --record --key 375adc62-2ff1-429f-9b9e-501ec4c86b6d"
+  
 
   },
   "author": "",
